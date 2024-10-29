@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body style="font-family: poppins">
+    <!-- hero section start -->
+    <section id="hero" class="w-full h-screen relative bg-cover bg-center" style="background-image: url('img/bg-hero.png'); background-size: cover; padding-top: 20px;">
+
+      <!-- header section -->
+      <div class="container w-[1130px] top-0 left-0 right-0 bg-[#141414] mt-[30px] rounded-[20px] z-10">
+          <div class="mx-auto flex justify-between items-center px-4 py-2">
+              <!-- Logo -->
+              <div class="flex items-center">
+                  <img src="img/logo.png" alt="Logo" class="w-[35.12px] h-9">
+                  <span class="text-2xl font-extrabold ml-2 text-white">Nidejia</span>
+              </div>
+              <!-- Navigation -->
+              <ul class="flex space-x-6">
+                <li>
+                  <a href="" class="text-white text-base font-semibold">Featured</a>
+                </li>
+                <li>
+                  <a href="#categories" class="text-white hover:text-gray-400 text-base font-semibold">Categories</a>
+                </li>
+                <li>
+                  <a href="#testimoni" class="text-white hover:text-gray-400 text-base font-semibold">Testimonials</a>
+                </li>
+                <li>
+                  <a href="" class="text-white hover:text-gray-400 text-base font-semibold">About</a>
+                </li>
+              </ul>
+              <!-- Auth Buttons -->
+              <div class="md:flex space-x-4">
+                  <button class="bg-[#323437] rounded-[50px] py-3 px-6 text-white font-semibold text-base"><a href="">Sign In</a></button>
+                  <button class="bg-[#ff9357] rounded-[50px] py-3 px-6 text-black font-semibold text-base">Sign Up</button>
+              </div>
+          </div>
+      </div>
+      <!-- hero content section -->
+      <div class="relative z-10 mx-auto px-4">
+          <div class="pb-[110px] pt-[30px] container">
+              <h1 class="text-[55px] font-bold text-white max-w-[546px] mb-[10px] leading-tight">
+                  Find Glorious Living And Loving Space
+              </h1>
+              <p class="text-lg font-normal text-white max-w-[400px] mb-[40px]">
+                  Dolor house comfortable si amet with cheap price that also lorem when you need grow.
+              </p>
+  
+              <!-- Search bar -->
+              <div class="relative flex items-center max-w-[555px] bg-[#141414] rounded-full overflow-hidden">
+                  <input type="text" placeholder="Search by city or country..." class="w-full py-5 pl-[30px] text-[#a8a8a8] bg-[#141414] text-xl font-normal focus:outline-none">
+                  <button class="bg-[#ff9357] text-black text-xl font-semibold px-6 py-5 rounded-r-full">Explore</button>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- card section start -->
+    <section id="" class="bg-[#141414] rounded-[30px] mt-[-40px] left-0 right-0 w-[1130px] absolute py-8 px-4 md:px-8 flex items-center justify-between space-y-6 md:space-y-0 container">
+      <div class="flex items-center text-center md:border-r md:border-gray-700 px-4 md:px-8">
+        <div class="bg-[#FF9357] p-4 rounded-full mr-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 16 16"><path fill="black" fill-rule="evenodd" d="M8.27 2.08a.5.5 0 0 0-.54 0l-7 4.5l.54.84l.73-.468V13.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V6.952l.73.469l.54-.842zM6.5 9a.5.5 0 0 0-.5.5V13h1v-3h2v3h1V9.5a.5.5 0 0 0-.5-.5z" clip-rule="evenodd"/></svg>
+        </div>
+        <div class="flex flex-col">
+          <h3 class="text-white text-[28px] font-bold">382M</h3>
+          <p class="text-base font-normal text-[#a8a8ab]">Kas Available</p>
+        </div>
+      </div>
+      
+      <!-- Item 2 -->
+      <div class="flex items-center text-center md:border-r md:border-gray-700 px-4 md:px-8">
+        <div class="bg-[#FF9357] p-4 rounded-full mr-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 48 48"><path fill="black" d="M16 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m18 0a6 6 0 1 0 0-12a6 6 0 0 0 0 12M6.75 27A3.75 3.75 0 0 0 3 30.75V32s0 9 13 9s13-9 13-9v-1.25A3.75 3.75 0 0 0 25.25 27zm21.924 11.089c1.376.558 3.119.911 5.325.911c10.5 0 10.5-8 10.5-8v-.25A3.75 3.75 0 0 0 40.75 27H29.607a5.73 5.73 0 0 1 1.391 3.75v1.295l-.001.057l-.006.15q-.008.173-.035.43a10 10 0 0 1-.24 1.325a10.7 10.7 0 0 1-2.042 4.082"/></svg>
+        </div>
+        <div class="flex flex-col">
+          <h3 class="text-white text-[28px] font-bold">9/10</h3>
+          <p class="text-base font-normal text-[#a8a8ab]">People Happy</p>
+        </div>
+      </div>
+    
+      <!-- Item 3 -->
+      <div class="flex items-center text-center md:border-r md:border-gray-700 px-4 md:px-8">
+        <div class="bg-[#FF9357] p-4 rounded-full mr-4">
+          <img src="img/security-user.png" class="w-8 h-8">
+        </div>
+        <div class="flex flex-col">
+          <h3 class="text-white text-[28px] font-bold">100%</h3>
+          <p class="text-base font-normal text-[#a8a8ab]">High Security</p>
+        </div>
+      </div>
+    
+      <!-- Item 4 -->
+      <div class="flex items-center text-center px-4 md:px-8">
+        <div class="bg-[#FF9357] p-4 rounded-full mr-4">
+          <img src="img/global.png" class="w-8 h-8">
+        </div>
+        <div class="flex flex-col">
+          <h3 class="text-white text-[28px] font-bold">183</h3>
+          <p class="text-base font-normal text-[#a8a8ab]">Countries</p>
+        </div>
+      </div>
+    </section>
+    <!-- card section end -->
+
+    <!-- section deals start -->
+    <section id="deals" class="bg-black py-[100px]">
+        <div class="relative container">
+            <div class="mt-16 mx-auto text-center justify-center items-center">
+                <h1 class="text-[28px] font-bold text-white">Our Latest Deals</h1>
+                <p class="text-lg font-normal text-[#a8a8a8]">Explore the beauty of architecture and living love</p>
+            </div>
+            <div class="flex justify-between">
+                <div class="mt-[30px] lg:w-1/4">
+                    <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                        <!-- Image Section -->
+                        <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-1.png" alt="Property Image">
+                        
+                        <!-- Overlay Text Content -->
+                        <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                          <div class="flex items-center justify-between">
+                            <div>
+                              <h3 class="text-xl font-bold text-white mb-1">De Flecce</h3>
+                              <p class="text-sm text-white font-semibold mb-4">$47,298<span class="font-normal">/mo</span></p>
+                            </div>
+                            <div class="flex">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                              <span class="text-white text-sm font-semibold">4.5/5</span>
+                            </div>
+                          </div>
+                          
+                      
+                          <!-- Property Details -->
+                          <div class="flex justify-between items-center text-white text-sm">
+                            <div class="flex items-center space-x-1">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                              <span>529 sqft</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                              <span>3</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                              <span>10gb</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="mt-[30px] lg:w-1/4">
+                  <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                      <!-- Image Section -->
+                      <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-2.png" alt="Property Image">
+                      
+                      <!-- Overlay Text Content -->
+                      <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                        <div class="flex items-center justify-between">
+                          <div>
+                            <h3 class="text-xl font-bold text-white mb-1">Party Every</h3>
+                            <p class="text-sm text-white font-semibold mb-4">$18,983<span class="font-normal">/mo</span></p>
+                          </div>
+                          <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <span class="text-white text-sm font-semibold">4.5/5</span>
+                          </div>
+                        </div>
+                        
+                    
+                        <!-- Property Details -->
+                        <div class="flex justify-between items-center text-white text-sm">
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                            <span>529 sqft</span>
+                          </div>
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                            <span>3</span>
+                          </div>
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                            <span>10gb</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="mt-[30px] lg:w-1/4">
+                  <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                      <!-- Image Section -->
+                      <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-3.png" alt="Property Image">
+                      
+                      <!-- Overlay Text Content -->
+                      <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                        <div class="flex items-center justify-between">
+                          <div>
+                            <h3 class="text-xl font-bold text-white mb-1">Brown Hall</h3>
+                            <p class="text-sm text-white font-semibold mb-4">$84,209<span class="font-normal">/mo</span></p>
+                          </div>
+                          <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <span class="text-white text-sm font-semibold">4.5/5</span>
+                          </div>
+                        </div>
+                        
+                    
+                        <!-- Property Details -->
+                        <div class="flex justify-between items-center text-white text-sm">
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                            <span>529 sqft</span>
+                          </div>
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                            <span>3</span>
+                          </div>
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                            <span>10gb</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="mt-[30px] lg:w-1/4">
+                  <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                      <!-- Image Section -->
+                      <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-4.png" alt="Property Image">
+                      
+                      <!-- Overlay Text Content -->
+                      <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                        <div class="flex items-center justify-between">
+                          <div>
+                            <h3 class="text-xl font-bold text-white mb-1">Mini Max</h3>
+                            <p class="text-sm text-white font-semibold mb-4">$14,221<span class="font-normal">/mo</span></p>
+                          </div>
+                          <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <span class="text-white text-sm font-semibold">4.5/5</span>
+                          </div>
+                        </div>
+                        
+                    
+                        <!-- Property Details -->
+                        <div class="flex justify-between items-center text-white text-sm">
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                            <span>529 sqft</span>
+                          </div>
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                            <span>3</span>
+                          </div>
+                          <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                            <span>10gb</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--section deals end  -->
+
+    <!-- categories section start -->
+    <section id="categories" class="bg-[#141414] py-[50px]">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <div>
+            <h1 class="text-[28px] font-bold text-white">Categories</h1>
+            <p class="text-lg font-normal text-[#a8a8a8]">We provide everything</p>
+          </div>
+          <div>
+            <button class="w-full h-12 rounded-[50px] bg-[#ff9357] py-3 px-6 text-base font-semibold text-black">Explore All</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4">
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/microscope.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Star Hills</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/buildings.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Apartment</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/house-2.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Nearby City</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/building-4.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Landed House</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/airplane.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Airport</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/cup.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Awards</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/sun-fog.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Sunset</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+
+          <div class="w-[260px] h-[86px] rounded-[20px] bg-[#202020] flex py-4 pl-5 items-center mt-[30px]">
+            <div>
+              <img src="img/element-equal.png" class="w-9 h-9 mr-4">
+            </div>
+            <div>
+              <h1 class="text-xl font-bold text-white">Others</h1>
+              <h3 class="text-base font-normal text-[#a8a8a8]">18,394</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- categories section end -->
+
+    <!-- benefits section start -->
+    <section id="benefits" class="bg-black py-[100px]">
+      <div class="container">
+        <div class="flex flex-wrap justify-between">
+          <div class="lg:w-[383px]">
+            <h1 class="text-[28px] font-bold text-white mb-[30px]">Huge Benefits That <br>Make You Feel Happier</h1>
+
+            <!-- checklis section -->
+            <div class="mb-[22.5px] flex">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mr-3" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="2.45"><path fill="#1eba53" stroke="#1eba53" d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"/><path stroke="#fff" stroke-linecap="round" d="M16 24L22 30L34 18"/></g></svg>
+              <!-- teks -->
+              <h2 class="text-lg font-semibold text-white">Checking faster without depositing</h2>
+            </div>
+
+            <div class="mb-[22.5px] flex">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mr-3" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="2.45"><path fill="#1eba53" stroke="#1eba53" d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"/><path stroke="#fff" stroke-linecap="round" d="M16 24L22 30L34 18"/></g></svg>
+              <!-- teks -->
+              <h2 class="text-lg font-semibold text-white">24/7 security guarding your place</h2>
+            </div>
+
+            <div class="mb-[22.5px] flex">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mr-3" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="2.45"><path fill="#1eba53" stroke="#1eba53" d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"/><path stroke="#fff" stroke-linecap="round" d="M16 24L22 30L34 18"/></g></svg>
+              <!-- teks -->
+              <h2 class="text-lg font-semibold text-white">Fast-internet access without lagging</h2>
+            </div>
+
+            <div class="mb-[22.5px] flex">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mr-3" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="2.45"><path fill="#1eba53" stroke="#1eba53" d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"/><path stroke="#fff" stroke-linecap="round" d="M16 24L22 30L34 18"/></g></svg>
+              <!-- teks -->
+              <h2 class="text-lg font-semibold text-white">High standard of layout of houses</h2>
+            </div>
+
+            <div class="mb-[22.5px] flex">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mr-3" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="2.45"><path fill="#1eba53" stroke="#1eba53" d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"/><path stroke="#fff" stroke-linecap="round" d="M16 24L22 30L34 18"/></g></svg>
+              <!-- teks -->
+              <h2 class="text-lg font-semibold text-white">All other benefits, we promise</h2>
+            </div>
+
+            <!-- button section -->
+            <div class="flex">
+              <button class="rounded-full w-[158px] py-3 px-6 bg-[#ff9357] text-black text-base font-semibold mr-[14px] flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-[10px] items-center" viewBox="0 0 24 24"><g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" color="black"><path d="M21.96 10.97c.053.83.053 1.69 0 2.52c-.274 4.243-3.606 7.623-7.79 7.9a33 33 0 0 1-4.34 0a4.9 4.9 0 0 1-1.486-.339c-.512-.21-.768-.316-.899-.3c-.13.016-.319.155-.696.434c-.666.49-1.505.844-2.75.813c-.629-.015-.943-.023-1.084-.263s.034-.572.385-1.237c.487-.922.795-1.978.328-2.823c-.805-1.208-1.488-2.639-1.588-4.184a20 20 0 0 1 0-2.52c.274-4.243 3.606-7.622 7.79-7.9c1.202-.08 1.451-.092 2.67-.037m-.505 9.466h.01m3.986 0H16m-8 0h.009"/><path d="M22 5.5a3.5 3.5 0 1 1-7 0a3.5 3.5 0 0 1 7 0"/></g></svg>
+                Call Sales
+              </button>
+
+              <button class="rounded-full w-[138px] py-3 px-6 bg-[#323437] text-white text-base font-semibold">All Benefits</button>
+            </div>
+
+          </div>
+
+          <div class="lg:w-[650px]">
+            <div class="flex flex-wrap">
+              <div class="lg:w-1/2">
+                <div class="w-[310px] rounded-3xl overflow-hidden shadow-lg relative mr-[30px]">
+                  <img class="w-full h-[200px] rounded-3xl object-cover" src="img/house-living.png">
+                  <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-3xl">
+                    <div class="flex items-center justify-between">
+                      <div class="mr-[45px]">
+                        <h1 class="text-xl font-bold text-white">House for Office <br> and Living</h1>
+                      </div>
+                      <div class="flex items-center space-x-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                        <span class="text-white">18,309</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:w-1/2">
+                <div class="w-[310px] rounded-3xl overflow-hidden shadow-lg relative mr-[30px]">
+                  <img class="w-full h-[200px] rounded-3xl object-cover" src="img/house-mall.png">
+                  <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-3xl">
+                    <div class="flex items-center justify-between">
+                      <div class="mr-[45px]">
+                        <h1 class="text-xl font-bold text-white">House Nearby <br> with Mall</h1>
+                      </div>
+                      <div class="flex items-center space-x-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                        <span class="text-white">84,209</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:w-1/2 mt-[30px]">
+                <div class="w-[310px] rounded-3xl overflow-hidden shadow-lg relative mr-[30px]">
+                  <img class="w-full h-[200px] rounded-3xl object-cover" src="img/house-building.png">
+                  <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-3xl">
+                    <div class="flex items-center justify-between">
+                      <div class="mr-[35px]">
+                        <h1 class="text-xl font-bold text-white">House Historical <br> Building</h1>
+                      </div>
+                      <div class="flex items-center space-x-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                        <span class="text-white">22,409</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:w-1/2 mt-[30px]">
+                <div class="w-[310px] rounded-3xl overflow-hidden shadow-lg relative mr-[30px]">
+                  <img class="w-full h-[200px] rounded-3xl object-cover" src="img/house-park.png">
+                  <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-3xl">
+                    <div class="flex items-center justify-between">
+                      <div class="mr-[45px]">
+                        <h1 class="text-xl font-bold text-white">Landed House <br> with Park</h1>
+                      </div>
+                      <div class="flex items-center space-x-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                        <span class="text-white">47,583</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- benefits section end -->
+
+    <!-- testimoni section start -->
+    <section id="testimoni" class="bg-black py-[100px]">
+      <div class="container">
+        <div class="mx-auto text-center">
+          <h1 class="text-[28px] font-bold text-white">Happy Customers</h1>
+          <p class="text-lg font-normal text-[#a8a8a8]">We’d love to come back again soon</p>
+        </div>
+
+        <div class="grid grid-rows-3 grid-flow-col gap-3 mt-[30px]">
+          <div class="w-[356px] h-[238px] rounded-[20px] bg-[#141414] py-4 px-5">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">I was not so sure if there was a beautiful bedroom, but it was really great experience.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[356px] h-[174px] rounded-[20px] bg-[#141414] py-4 px-5">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">It’s just amazing, will be back.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[356px] h-[238px] rounded-[20px] bg-[#141414] py-4 px-5 mt-[-60px]">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">I was not so sure if there was a beautiful bedroom, but it was really great experience.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="w-[356px] h-[174px] rounded-[20px] bg-[#141414] py-4 px-5">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">Price was too low yet luxury.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[356px] h-[238px] rounded-[20px] bg-[#141414] py-4 px-5 mt-[-60px]">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">I was not so sure if there was a beautiful bedroom, but it was really great experience.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[356px] h-[238px] rounded-[20px] bg-[#141414] py-4 px-5 mt-[-60px]">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">During covid I was stayed here and I got a lot of full of supports that I need to keep my body healthy.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="w-[356px] h-[238px] rounded-[20px] bg-[#141414] py-4 px-5">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">I was not so sure if there was a beautiful bedroom, but it was really great experience.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[356px] h-[174px] rounded-[20px] bg-[#141414] py-4 px-5">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">It’s just amazing, will be back.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[356px] h-[238px] rounded-[20px] bg-[#141414] py-4 px-5 mt-[-60px]">
+            <!-- icon section -->
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h1 class="text-lg font-normal text-white my-5">I was not so sure if there was a beautiful bedroom, but it was really great experience.</h1>
+            <!-- user section -->
+            <div class="flex">
+              <div class="mr-3">
+                <img src="img/evelin.png" class="w-[50px] h-[50px] rounded-full">
+              </div>
+              <div>
+                <h3 class="text-base font-semibold text-white mb-1">Evelin Bie</h3>
+                <p class="text-sm font-normal text-[#a8a8a8]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- testimoni section end -->
+
+    <!-- footer section start -->
+    <footer id="footer" class="bg-[#141414] py-[100px]">
+      <div class="container">
+        <div class="flex">
+          <div class="lg:w-[124px] mr-[100px]">
+            <h1 class="text-base font-semibold text-white mb-3">Solutions</h1>
+            <ul class="text-base font-normal text-[#a8a8a8]">
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Credit Rewards</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">P2P Renting</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Open for Listing</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">AI Automation</a></li>
+              <li class="hover:text-[#ff9357]"><a href="">APIs Developer</a></li>
+            </ul>
+          </div>
+          <div class="lg:w-[150px] mr-[100px]">
+            <h1 class="text-base font-semibold text-white mb-3">Product</h1>
+            <ul class="text-base font-normal text-[#a8a8a8]">
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Featured House</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Browse Categories</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Special Awards</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Made-In Bandung</a></li>
+              <li class="hover:text-[#ff9357]"><a href="">Exclusive Style</a></li>
+            </ul>
+          </div>
+          <div class="lg:w-[110px] mr-[95px]">
+            <h1 class="text-base font-semibold text-white mb-3">Company</h1>
+            <ul class="text-base font-normal text-[#a8a8a8]">
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">About Us</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Our Investors</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Missions 2024</a></li>
+              <li class="mb-3 hover:text-[#ff9357]"><a href="">Careers</a></li>
+              <li class="hover:text-[#ff9357]"><a href="">Media Press</a></li>
+            </ul>
+          </div>
+          <div class="lg:w-[447px]">
+            <h1 class="text-base font-semibold text-white mb-3">Subscribe & Free Rewards</h1>
+            <div class="flex items-center max-w-[447px] bg-white rounded-full overflow-hidden pl-6 mb-[30px]">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24"><path fill="#7f7a7a" fill-rule="evenodd" d="M3.879 5.879C3 6.757 3 8.172 3 11v2c0 2.828 0 4.243.879 5.121C4.757 19 6.172 19 9 19h6c2.828 0 4.243 0 5.121-.879C21 17.243 21 15.828 21 13v-2c0-2.828 0-4.243-.879-5.121C19.243 5 17.828 5 15 5H9c-2.828 0-4.243 0-5.121.879m2.676 2.289a1 1 0 0 0-1.11 1.664l5.446 3.63a2 2 0 0 0 2.218 0l5.446-3.63a1 1 0 0 0-1.11-1.664L12 11.798z" clip-rule="evenodd"/></svg>
+              <input type="text" placeholder="Email Address" class="w-full py-5 text-[#7D7B91] pl-[10px] text-base font-normal focus:outline-none">
+              <button class="bg-[#ff9357] text-black text-base font-semibold px-6 py-5 rounded-full">Subscribe</button>
+            </div>
+
+            <!-- Custom Dropdown Component -->
+            <div x-data="{ open: false, selected: { name: 'English (UK)', icon: 'uk-flag' } }" class="relative w-64 text-white">
+              <h1 class="text-base font-semibold mb-2">Choose Language</h1>
+            
+              <!-- Selected Option Button -->
+              <button @click="open = !open" class="w-full px-4 py-2 bg-[#141414] flex items-center justify-between">
+                <div class="flex items-center">
+                  <!-- Flag Icon -->
+                  <template x-if="selected.icon === 'uk-flag'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" viewBox="0 0 72 72"><path fill="#1e50a0" d="M5 17h62v38H5z"/><path fill="#fff" d="M40 28.856V32h10.181L67 21.691V17h-7.654z"/><path fill="#d22f27" d="M67 17h-3.827L40 31.203V32h3.482L67 17.586z"/><path fill="#fff" d="M59.347 55H67v-4.692L50.182 40H40v3.143z"/><path fill="#d22f27" d="M67 55v-2.347L46.355 40h-4.787l24.474 15z"/><path fill="#fff" d="M32 43.144V40H21.819L5 50.309V55h7.654z"/><path fill="#d22f27" d="M5 55h3.827L32 40.797V40h-3.482L5 54.414z"/><path fill="#fff" d="M12.653 17H5v4.692L21.818 32H32v-3.143z"/><path fill="#d22f27" d="M5 17v2.347L25.646 32h4.786L5.958 17z"/><path fill="#fff" d="M5 31h62v10H5z"/><path fill="#fff" d="M31 17h10v38H31z"/><path fill="#d22f27" d="M5 33h62v6H5z"/><path fill="#d22f27" d="M33 17h6v38h-6z"/><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h62v38H5z"/></svg>
+                  </template>
+                  <template x-if="selected.icon === 'ind-flag'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" viewBox="0 0 72 72"><path fill="#d22f27" d="M5 17h62v38H5z"/><path fill="#fff" d="M5 36h62v19H5z"/><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h62v38H5z"/></svg>
+                  </template>
+                  <span x-text="selected.name"></span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.25 4.25a.75.75 0 01-1.06 0L5.23 8.27a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                </svg>
+              </button>
+            
+              <!-- Dropdown Options -->
+              <div x-show="open" @click.away="open = false" class="absolute mt-2 w-full [#141414] z-10">
+                <ul>
+                  <li @click="selected = { name: 'English (UK)', icon: 'uk-flag' }; open = false" class="px-4 py-2 cursor-pointer hover:bg-gray-700 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 72 72"><path fill="#1e50a0" d="M5 17h62v38H5z"/><path fill="#fff" d="M40 28.856V32h10.181L67 21.691V17h-7.654z"/><path fill="#d22f27" d="M67 17h-3.827L40 31.203V32h3.482L67 17.586z"/><path fill="#fff" d="M59.347 55H67v-4.692L50.182 40H40v3.143z"/><path fill="#d22f27" d="M67 55v-2.347L46.355 40h-4.787l24.474 15z"/><path fill="#fff" d="M32 43.144V40H21.819L5 50.309V55h7.654z"/><path fill="#d22f27" d="M5 55h3.827L32 40.797V40h-3.482L5 54.414z"/><path fill="#fff" d="M12.653 17H5v4.692L21.818 32H32v-3.143z"/><path fill="#d22f27" d="M5 17v2.347L25.646 32h4.786L5.958 17z"/><path fill="#fff" d="M5 31h62v10H5z"/><path fill="#fff" d="M31 17h10v38H31z"/><path fill="#d22f27" d="M5 33h62v6H5z"/><path fill="#d22f27" d="M33 17h6v38h-6z"/><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h62v38H5z"/></svg>
+                    English (UK)
+                  </li>
+                  <li @click="selected = { name: 'Indonesia (IND)', icon: 'ind-flag' }; open = false" class="px-4 py-2 cursor-pointer hover:bg-gray-700 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 72 72"><path fill="#d22f27" d="M5 17h62v38H5z"/><path fill="#fff" d="M5 36h62v19H5z"/><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h62v38H5z"/></svg>
+                    Indonesia (IND)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- copyright section -->
+        <div class="w-full mt-[50px] border-t border-[#353535]">
+          <div class="flex justify-between mt-[50px]">
+            <div class="flex">
+              <img src="img/logo.png" class="w-[35.12px] h-9 mr-[10px]">
+              <h1 class="text-2xl font-extrabold text-white">Nidejia</h1>
+            </div>
+            <h3 class="text-base font-normal text-[#a8a8a8]">All Rights Reserved Nidejia BuildWithAngga 2024</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+</body>
+
+</html>
