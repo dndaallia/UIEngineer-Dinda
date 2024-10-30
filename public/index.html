@@ -119,157 +119,254 @@
                 <p class="text-lg font-normal text-[#a8a8a8]">Explore the beauty of architecture and living love</p>
             </div>
             <div class="flex justify-between">
-                <div class="mt-[30px] lg:w-1/4">
-                    <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
-                        <!-- Image Section -->
-                        <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-1.png" alt="Property Image">
-                        
-                        <!-- Overlay Text Content -->
-                        <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
-                          <div class="flex items-center justify-between">
-                            <div>
-                              <h3 class="text-xl font-bold text-white mb-1">De Flecce</h3>
-                              <p class="text-sm text-white font-semibold mb-4">$47,298<span class="font-normal">/mo</span></p>
-                            </div>
-                            <div class="flex">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                              <span class="text-white text-sm font-semibold">4.5/5</span>
-                            </div>
-                          </div>
+              <div id="slidercontainer" class="w-full overflow-hidden relative">
+                
+                <ul id="slider" class="flex w-full">
+                  <li>
+                    <div class="mt-[30px]">
+                      <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                          <!-- Image Section -->
+                          <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-1.png" alt="Property Image">
                           
-                      
-                          <!-- Property Details -->
-                          <div class="flex justify-between items-center text-white text-sm">
-                            <div class="flex items-center space-x-1">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
-                              <span>529 sqft</span>
+                          <!-- Overlay Text Content -->
+                          <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                            <div class="flex items-center justify-between">
+                              <div>
+                                <h3 class="text-xl font-bold text-white mb-1">De Flecce</h3>
+                                <p class="text-sm text-white font-semibold mb-4">$47,298<span class="font-normal">/mo</span></p>
+                              </div>
+                              <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <span class="text-white text-sm font-semibold">4.5/5</span>
+                              </div>
                             </div>
-                            <div class="flex items-center space-x-1">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
-                              <span>3</span>
+                            
+                        
+                            <!-- Property Details -->
+                            <div class="flex justify-between items-center text-white text-sm">
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                                <span>529 sqft</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                                <span>3</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                                <span>10gb</span>
+                              </div>
                             </div>
-                            <div class="flex items-center space-x-1">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
-                              <span>10gb</span>
+                          </div>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="mt-[30px]">
+                      <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                          <!-- Image Section -->
+                          <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-2.png" alt="Property Image">
+                          
+                          <!-- Overlay Text Content -->
+                          <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                            <div class="flex items-center justify-between">
+                              <div>
+                                <h3 class="text-xl font-bold text-white mb-1">Party Every</h3>
+                                <p class="text-sm text-white font-semibold mb-4">$18,983<span class="font-normal">/mo</span></p>
+                              </div>
+                              <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <span class="text-white text-sm font-semibold">4.5/5</span>
+                              </div>
+                            </div>
+                            
+                        
+                            <!-- Property Details -->
+                            <div class="flex justify-between items-center text-white text-sm">
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                                <span>529 sqft</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                                <span>3</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                                <span>10gb</span>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                </div>
-
-                <div class="mt-[30px] lg:w-1/4">
-                  <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
-                      <!-- Image Section -->
-                      <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-2.png" alt="Property Image">
-                      
-                      <!-- Overlay Text Content -->
-                      <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
-                        <div class="flex items-center justify-between">
-                          <div>
-                            <h3 class="text-xl font-bold text-white mb-1">Party Every</h3>
-                            <p class="text-sm text-white font-semibold mb-4">$18,983<span class="font-normal">/mo</span></p>
-                          </div>
-                          <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                            <span class="text-white text-sm font-semibold">4.5/5</span>
-                          </div>
-                        </div>
-                        
-                    
-                        <!-- Property Details -->
-                        <div class="flex justify-between items-center text-white text-sm">
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
-                            <span>529 sqft</span>
-                          </div>
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
-                            <span>3</span>
-                          </div>
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
-                            <span>10gb</span>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                </div>
-
-                <div class="mt-[30px] lg:w-1/4">
-                  <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
-                      <!-- Image Section -->
-                      <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-3.png" alt="Property Image">
-                      
-                      <!-- Overlay Text Content -->
-                      <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
-                        <div class="flex items-center justify-between">
-                          <div>
-                            <h3 class="text-xl font-bold text-white mb-1">Brown Hall</h3>
-                            <p class="text-sm text-white font-semibold mb-4">$84,209<span class="font-normal">/mo</span></p>
-                          </div>
-                          <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                            <span class="text-white text-sm font-semibold">4.5/5</span>
-                          </div>
-                        </div>
+                  </li>
+                  <li>
+                    <div class="mt-[30px]">
+                      <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                          <!-- Image Section -->
+                          <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-3.png" alt="Property Image">
+                          
+                          <!-- Overlay Text Content -->
+                          <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                            <div class="flex items-center justify-between">
+                              <div>
+                                <h3 class="text-xl font-bold text-white mb-1">Brown Hall</h3>
+                                <p class="text-sm text-white font-semibold mb-4">$84,209<span class="font-normal">/mo</span></p>
+                              </div>
+                              <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <span class="text-white text-sm font-semibold">4.5/5</span>
+                              </div>
+                            </div>
+                            
                         
-                    
-                        <!-- Property Details -->
-                        <div class="flex justify-between items-center text-white text-sm">
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
-                            <span>529 sqft</span>
-                          </div>
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
-                            <span>3</span>
-                          </div>
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
-                            <span>10gb</span>
+                            <!-- Property Details -->
+                            <div class="flex justify-between items-center text-white text-sm">
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                                <span>529 sqft</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                                <span>3</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                                <span>10gb</span>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
                     </div>
-                </div>
-
-                <div class="mt-[30px] lg:w-1/4">
-                  <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
-                      <!-- Image Section -->
-                      <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-4.png" alt="Property Image">
-                      
-                      <!-- Overlay Text Content -->
-                      <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
-                        <div class="flex items-center justify-between">
-                          <div>
-                            <h3 class="text-xl font-bold text-white mb-1">Mini Max</h3>
-                            <p class="text-sm text-white font-semibold mb-4">$14,221<span class="font-normal">/mo</span></p>
-                          </div>
-                          <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
-                            <span class="text-white text-sm font-semibold">4.5/5</span>
-                          </div>
-                        </div>
+                  </li>
+                  <li>
+                    <div class="mt-[30px]">
+                      <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                          <!-- Image Section -->
+                          <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-4.png" alt="Property Image">
+                          
+                          <!-- Overlay Text Content -->
+                          <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                            <div class="flex items-center justify-between">
+                              <div>
+                                <h3 class="text-xl font-bold text-white mb-1">Mini Max</h3>
+                                <p class="text-sm text-white font-semibold mb-4">$14,221<span class="font-normal">/mo</span></p>
+                              </div>
+                              <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <span class="text-white text-sm font-semibold">4.5/5</span>
+                              </div>
+                            </div>
+                            
                         
-                    
-                        <!-- Property Details -->
-                        <div class="flex justify-between items-center text-white text-sm">
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
-                            <span>529 sqft</span>
-                          </div>
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
-                            <span>3</span>
-                          </div>
-                          <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
-                            <span>10gb</span>
+                            <!-- Property Details -->
+                            <div class="flex justify-between items-center text-white text-sm">
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                                <span>529 sqft</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                                <span>3</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                                <span>10gb</span>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
                     </div>
-                </div>
+                  </li>
+                  <li>
+                    <div class="mt-[30px]">
+                      <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                          <!-- Image Section -->
+                          <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-2.png" alt="Property Image">
+                          
+                          <!-- Overlay Text Content -->
+                          <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                            <div class="flex items-center justify-between">
+                              <div>
+                                <h3 class="text-xl font-bold text-white mb-1">Party Every</h3>
+                                <p class="text-sm text-white font-semibold mb-4">$18,983<span class="font-normal">/mo</span></p>
+                              </div>
+                              <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <span class="text-white text-sm font-semibold">4.5/5</span>
+                              </div>
+                            </div>
+                            
+                        
+                            <!-- Property Details -->
+                            <div class="flex justify-between items-center text-white text-sm">
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                                <span>529 sqft</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                                <span>3</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                                <span>10gb</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="mt-[30px]">
+                      <div class="max-w-[260px] rounded-3xl overflow-hidden shadow-lg relative">
+                          <!-- Image Section -->
+                          <img class="w-full h-[350px] object-cover rounded-t-xl" src="img/deals-3.png" alt="Property Image">
+                          
+                          <!-- Overlay Text Content -->
+                          <div class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-b from-transparent from-46% to-[#050211] to-87% p-4 rounded-xl flex flex-col justify-end">
+                            <div class="flex items-center justify-between">
+                              <div>
+                                <h3 class="text-xl font-bold text-white mb-1">Brown Hall</h3>
+                                <p class="text-sm text-white font-semibold mb-4">$84,209<span class="font-normal">/mo</span></p>
+                              </div>
+                              <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#FF9357] ml-1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <span class="text-white text-sm font-semibold">4.5/5</span>
+                              </div>
+                            </div>
+                            
+                        
+                            <!-- Property Details -->
+                            <div class="flex justify-between items-center text-white text-sm">
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-1.25 0-2.125-.875T2 19q0-.975.563-1.737T4 16.174v-8.35Q3.125 7.5 2.563 6.737T2 5q0-1.25.875-2.125T5 2q.975 0 1.738.563T7.825 4h8.35q.3-.875 1.063-1.437T19 2q1.25 0 2.125.875T22 5q0 1-.562 1.763T20 7.825v8.35q.875.325 1.438 1.088T22 19q0 1.25-.875 2.125T19 22q-.975 0-1.737-.562T16.174 20h-8.35q-.325.875-1.088 1.438T5 22M5 6q.425 0 .713-.288T6 5t-.288-.712T5 4t-.712.288T4 5t.288.713T5 6m14 0q.425 0 .713-.288T20 5t-.288-.712T19 4t-.712.288T18 5t.288.713T19 6M7.825 18h8.35q.225-.65.7-1.125t1.125-.7v-8.35q-.65-.225-1.125-.7T16.175 6h-8.35q-.225.65-.7 1.125T6 7.825v8.35q.65.225 1.125.7t.7 1.125M19 20q.425 0 .713-.288T20 19t-.288-.712T19 18t-.712.288T18 19t.288.713T19 20M5 20q.425 0 .713-.288T6 19t-.288-.712T5 18t-.712.288T4 19t.288.713T5 20m0-1"/></svg>
+                                <span>529 sqft</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px] text-white" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.616 20h.49c1.15 0 2.065-.524 2.886-1.256C24.078 16.883 19.174 15 17.5 15m-2-9.931Q15.841 5 16.205 5c1.82 0 3.295 1.343 3.295 3s-1.475 3-3.295 3q-.364 0-.705-.069m-11.019 5.18c-1.179.632-4.27 1.922-2.387 3.536c.92.789 1.944 1.353 3.232 1.353h7.348c1.288 0 2.312-.564 3.232-1.353c1.883-1.614-1.208-2.904-2.387-3.536c-2.765-1.481-6.273-1.481-9.038 0M13 7.5a4 4 0 1 1-8 0a4 4 0 0 1 8 0" color="currentColor"/></svg>
+                                <span>3</span>
+                              </div>
+                              <div class="flex items-center space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-[18px] h-[18px]" viewBox="0 0 48 48"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M4 18.965a29 29 0 0 1 1.817-1.586C17.037 8.374 33.382 8.903 44 18.965"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45" d="M38 25.799c-7.732-7.732-20.268-7.732-28 0m22 6.515c-4.418-4.419-11.582-4.419-16 0"/><path fill="currentColor" fill-rule="evenodd" d="M24 40a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5" clip-rule="evenodd"/></g></svg>
+                                <span>10gb</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </li>
+                </ul>
+                <button id="nextBtn" onclick="next()" class="absolute top-1/3 -left-4 transform -translate-y-1/2 bg-[#141414] text-white w-[50px] h-[50px] flex items-center justify-center rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M15.41 16.58L10.83 12l4.58-4.58L14 6l-6 6 6 6z"/>
+                  </svg>
+                </button>
+                <button id="prevBtn" onclick="prev()" class="absolute top-1/3 -right-4 transform -translate-y-1/2 bg-[#141414] text-white w-[50px] h-[50px] flex items-center justify-center rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" d="m10 17l5-5l-5-5"/></svg>
+                </button>
+              </div>
+
                 
             </div>
         </div>
@@ -807,6 +904,64 @@
     </footer>
     <!-- footer section end -->
 
+
+
+    <script>
+      let slidercontainer = document.getElementById('slidercontainer');
+      let slider = document.getElementById('slider');
+      let cards = slider.getElementsByTagName('li');
+  
+      let elemetToShow = 4;
+      if (document.body.clientWidth < 1000) {
+          elemetToShow = 1;
+      } else if (document.body.clientWidth < 1500) {
+          elemetToShow = 4;
+      }
+  
+      let slidercontainerWidth = slidercontainer.clientWidth;
+      let cardsWidth = slidercontainerWidth / elemetToShow;
+  
+      slider.style.width = cards.length * cardsWidth + 'px';
+      slider.style.transition = 'margin';
+      slider.style.transitionDuration = '1s';
+  
+      for (let index = 0; index < cards.length; index++) {
+          const element = cards[index];
+          element.style.width = cardsWidth + 'px';
+      }
+  
+      // Initial margin and button states
+      slider.style.marginLeft = '0px';
+      updateButtonState();
+  
+      function prev() {
+          let currentMargin = +slider.style.marginLeft.slice(0, -2);
+          if (currentMargin > -(cardsWidth * (cards.length - elemetToShow))) {
+              slider.style.marginLeft = (currentMargin - cardsWidth) + 'px';
+              updateButtonState();
+          }
+      }
+  
+      function next() {
+          let currentMargin = +slider.style.marginLeft.slice(0, -2);
+          if (currentMargin < 0) {
+              slider.style.marginLeft = (currentMargin + cardsWidth) + 'px';
+              updateButtonState();
+          }
+      }
+  
+      // Update button state based on current position
+      function updateButtonState() {
+          let currentMargin = +slider.style.marginLeft.slice(0, -2);
+          let maxMargin = -(cardsWidth * (cards.length - elemetToShow));
+  
+          // Disable prev button if at the left edge
+          document.getElementById('prevBtn').disabled = (currentMargin <= maxMargin);
+  
+          // Disable next button if at the right edge
+          document.getElementById('nextBtn').disabled = (currentMargin >= 0);
+      }
+    </script>
 </body>
 
 </html>
